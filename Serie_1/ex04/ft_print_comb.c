@@ -43,7 +43,7 @@ void ft_print_comb()
 		  write(1, &n, 1);
 		  write(1, &j, 1);
 		  write(1, &g, 1);
-		  if (n != '7' || j != '8' || g != '9')
+		  if (n != '7')
 		    write(1, ", ", 2);
 		}
 	      g++;
