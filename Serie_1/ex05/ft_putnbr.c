@@ -1,11 +1,8 @@
 #include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 void ft_putnbr(int n)
 {
-  int nb = abs(n), i = 10, j = 0;
+  int nb = n, i = 10, j = 0;
   //Je crée un tableau suffisamment grand pour accueillir les chiffres du nombres donné en paramètre
   char c[1000000];
 
@@ -14,6 +11,8 @@ void ft_putnbr(int n)
   {
     c[0] = '-';
     j = 1;
+    //Pour l'avoir en positif
+    nb = -n;
   }
 
   while (i<nb*10)
@@ -24,7 +23,10 @@ void ft_putnbr(int n)
     }
     i *= 10;
     c[j] = (nb%10)+48;
-    nb = abs(n);
+    if (n<0)
+      nb = -n;
+    else
+      nb = n;
     j++;
   }
 
