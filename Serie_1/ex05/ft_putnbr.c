@@ -18,7 +18,7 @@ void ft_putnbr(int n)
   if (n==0)
     write(1, "0", 1);
   
-  while (i<nb*10)
+  while (i<=nb*10)
   {
     while(nb >= i)
     {
