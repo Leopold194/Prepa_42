@@ -8,4 +8,5 @@ int main()
   value = 0;
   ft_ft(&value);
   printf("%d", value);
+  return 0;
 }
