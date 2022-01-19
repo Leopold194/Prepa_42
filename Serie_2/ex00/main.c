@@ -1,9 +1,11 @@
+#include <stdio.h>
+
 void ft_ft(int *nbr);
 
 int main()
 {
   int value;
-  int *nbr;
-  nbr = &value;
-  ft_ft(nbr);
+  value = 0;
+  ft_ft(&value);
+  printf("%d", value);
 }
