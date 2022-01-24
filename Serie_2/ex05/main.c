@@ -10,7 +10,10 @@ int main()
   ft_sort_int_tab(tab2, 0);
   
   int i;
-  i = ;
+  i = 0;
   while (i != 7)
-    printf("%d", tab[i]);
+  {
+    printf("%d\n", tab[i]);
+    i++;
+  }
 }
