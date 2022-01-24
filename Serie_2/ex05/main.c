@@ -9,6 +9,8 @@ int main()
   int tab2[0] = {};
   ft_sort_int_tab(tab2, 0);
   
-  for(int i = 0; i != 7; i++)
-    printf("%d\n", tab[i]);
+  int i;
+  i = ;
+  while (i != 7)
+    printf("%d", tab[i]);
 }
