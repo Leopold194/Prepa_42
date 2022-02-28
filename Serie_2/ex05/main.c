@@ -8,6 +8,8 @@ int main()
   ft_sort_int_tab(tab, 7);
   int tab2[0] = {};
   ft_sort_int_tab(tab2, 0);
+  int tab3[0] = NULL;
+  ft_sort_int_tab(tab3, 0);
   
   int i;
   i = 0;

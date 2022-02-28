@@ -5,19 +5,22 @@ void ft_sort_int_tab(int *tab, int size)
 
   j = 0;
   i = 0;
-  while (i != size)
+  if (tab != NULL)
   {
-    while (j != size)
+    while (i != size)
     {
-      if (tab[j] > tab[i])
+      while (j != size)
       {
-	int c = tab[j];
-	tab[j] = tab[i];
-	tab[i] = c;
+	if (tab[j] > tab[i])
+	{
+	  int c = tab[j];
+	  tab[j] = tab[i];
+	  tab[i] = c;
+	}
+	j++;
       }
-      j++;
-    }
-    j = 0;
-    i++;
-  }  
+      j = 0;
+      i++;
+    }  
+  }
 }
