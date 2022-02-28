@@ -8,4 +8,5 @@ int main()
   char dest[10000];
   strcopy(dest, src);
   printf("Mot : %s", dest);
+  return 0;
 }
