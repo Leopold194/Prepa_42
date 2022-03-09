@@ -5,11 +5,11 @@ void strncopy(char *dest, char *src, unsigned int n);
 
 int main()
 {
-  char src[] = "Je veux un pepito";
-  char dest[10000];
-  char dest2[10000];
+  char src[] = "Je veux";
+  char dest[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+  char dest2[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
   unsigned int n;
-  n = 5;
+  n = 8;
   strncopy(dest, src, n);
   strncpy(dest2, src, n);
   printf("|%s|\n|%s|\n", dest, dest2);
