@@ -1,8 +1,8 @@
 #include <unistd.h>
 
-int ft_str_is_alpha(char *str)
+int ft_str_is_uppercase(char *str)
 {
-  char alphas[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  char alphas[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   int i;
   int j;
   int k;
