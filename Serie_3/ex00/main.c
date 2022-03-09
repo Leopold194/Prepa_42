@@ -5,9 +5,9 @@ void strcopy(char *dest, char *src);
 
 int main()
 {
-  char src[] = "Je veux un pepito";
-  char dest[10000];
-  char dest2[10000];
+  char src[] = "J'ai faim bordel";
+  char dest[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+  char dest2[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
   strcopy(dest, src);
   strcpy(dest2, src);
   printf("|%s|\n|%s|\n", dest, dest2);
