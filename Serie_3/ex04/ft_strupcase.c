@@ -19,7 +19,7 @@ char *ft_strupcase(char *str)
 	j = 0;
 	i++;
       }
-      else if (j > 26)
+      else if (j > 25)
       {
 	j = 0;
 	i++;
